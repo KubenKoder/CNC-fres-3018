@@ -7,7 +7,7 @@
 
 Maskinen blev påbegynt montering 22.04.2021
 
-* Noa
+* Noah
 * Bryan
 * Mats
 * Ferdinand
