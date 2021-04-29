@@ -8,7 +8,7 @@ Den styres av [grbl](https://github.com/gnea/grbl/wiki) software og en dedikert 
 
 ## Bruk av fresen
 
-Vi har ennå ikke laget en Kuben specifik brukermanual og den er ikke helt ferdigmontert så om noen ønsker å bruke den så er det best om man bruker tiden på at ferdigstille de resterende punkterne neden.
+Vi har ennå ikke laget en Kuben specifik brukermanual og den er ikke helt ferdigmontert så om noen ønsker å bruke den så er det best om man bruker tiden på at ferdigstille de resterende punkterne under "Montering".
 
 [Tillverkerens Brukermanual PDF](Manualer/User_manual.pdf)
 
@@ -49,8 +49,9 @@ Maskinen blev påbegynt montering 22.04.2021
 
 ## Kvar at montere
 * Rubber feet. Tregner T-nuts og skruer, 3D printe? Alternativt drille nye hull og gjenge. Ikke så vanskelig
-* Montere endebryter i alle rettninger og koble sammen kablene så de aktiverer samtidig (sjekk NO / NC). Mangler festepunkter, kabler og bryter. Prøv å ikke redusere arbeidsområdet unødvendig og ikke la maskinen knuse bryterne. Krever en hel del jobb og besluttninger. Induktive sensorer kan brukes men kommer med samme utfordringer. De bør festes godt så de holder posisjonen, serskild om de er mekaniske. Teste om vi kan bruke homeing med kontrollen, gjennom at ha en fil med homeing-sequence. 
-* Stramme umbrako-skruer, manger riktig størrelse på vekrtøy. 1,4 mm er for litet (glipper) og 1,9 for stort. Serskilt ved Y-axis knotten. 
+* Montere endebryter i alle rettninger og koble sammen kablene så de aktiverer samtidig (sjekk NO / NC). Mangler festepunkter, kabler og bryter. Prøv å ikke redusere arbeidsområdet unødvendig og ikke la maskinen knuse bryterne. Krever en hel del jobb og besluttninger. Induktive sensorer kan brukes men kommer med samme utfordringer. De bør festes godt så de holder posisjonen, serskild om de er mekaniske. Aktiver Hard-limits i GRBL når de funker.
+ * Teste om vi kan bruke homeing med kontrollen, gjennom at ha en fil med homeing-sequence. 
+* Stramme stop-skruer, skuffen manger riktig størrelse på verktøy. Trenger en 1,5mm umbrako. Stramme serskilt stopskruen ved Y-axis knotten. 
 * Koble inn en nødstop i serie med anslutning og montere denn ovenpå fresen. Det finnes 2 t-nuts som passer i sporen som kanskje kan brukes.
 * Sett på en skilt om at det er krav på briller og hørselvern og at det er risikofyllt å stikke inn fingrerne. Sikkerhetsanalyse bør gjøres når vi lager kursmaterial for nybegynnere.
 * Designe og printe en holder for hankontrollen. Rekommendert plassering horisontellt på X-axis motoren med tilgang til knapper og SD-kort. Vurder om den festes permanent eller i enkelt klikke-feste. Vurder at motoren kommer at utvikle mye værme og kan mye opp plastiken.  
