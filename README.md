@@ -57,3 +57,7 @@ Maskinen blev påbegynt montering 22.04.2021
 * Designe og printe en holder for hankontrollen. Rekommendert plassering horisontellt på X-axis motoren med tilgang til knapper og SD-kort. Vurder om den festes permanent eller i enkelt klikke-feste. Vurder at motoren kommer at utvikle mye værme og kan mye opp plastiken.  
 * Lage en Z-probe. Teste først med multimeter, har kortet pull-up/down og sjekke konduktivitet gjennom spindle, er den koblet til motor-ground? Krever: kabler, 2*0.1" header, crocodile clip(?) og en probe-plate/tilblingsmetode for kretskortet.
 * Fres en lomme for kretskort i en bit materiale på en kjent plassering fra endestoppene. 
+* Lage et materiallager med tilkappte og godkjente emner.
+* Lage en festemetode for alle godkjente emnestørrelser.
+* Lage kursmateriale som tekst og video for bruk av maskinen. Gjerne flere små videos som viser ulike trinn så kan de enkelt byttes ut når noe endres.
+* Lenke inn guide til hvordan man tegner kretskort og andre ting for fresing.
