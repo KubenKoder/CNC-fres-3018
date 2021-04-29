@@ -4,7 +4,9 @@
 
 Denne datorstyrte fresemaskinen (CNC) med et horisontellt arbeidsområde på 30*18cm står nå i 3-etagen-elektroverkstedet, innre rommmet. Den er tenkt til å bli bruk til å gi introduksjon til operasjon av CNC-freser til elevene og for å lage prototyper av kretskort med. Den kan frese i treverk, plastik og kretskort (uten glassfiber). 
 
-Den styres av [grbl](https://github.com/gnea/grbl/wiki) software og en dedikert handkontroller med SD-kort-læser. 
+Maskinen er en generisk no-name "3018 CNC" fra kina og ble kjøpt fra aliexpress, [se kvittering](CNC_order.pdf) og [link til webb-butikk](https://www.aliexpress.com/item/1005001728210352.html). Denne modell av CNC blir salgt av mange ulike fassonger fra ulike leverantører og återforselgere på internet, typisk fra kina. Denne ble valgt for at den var 100% metall og vi håper at det gjør den litt mer robust.
+
+Den styres av [grbl](https://github.com/gnea/grbl/wiki) software og en dedikert handkontroller med SD-kort-læser. Den kan også styres direkte fra en USB-tilkoblet PC med progam som [Universal Gcode Sender](https://winder.github.io/ugs_website/) som gir deg mulighet at styre den med mobiltelefon eller bruke mer avanserte funksjoner som automatisk probing og overflatekompensasjon. 
 
 ## Bruk av fresen
 
@@ -41,6 +43,8 @@ Maskinen blev påbegynt montering 22.04.2021
 ![montering2](img/montering2.jpg)
 
 [![3018 assembly video](http://img.youtube.com/vi/l4cpBdhWzJc/0.jpg)](http://www.youtube.com/watch?v=l4cpBdhWzJc "3018 assembly video")
+
+Video som viser montering av en lignende maskin.
 
 [Assembly manual PDF](Manualer/User_manual.pdf)
 
