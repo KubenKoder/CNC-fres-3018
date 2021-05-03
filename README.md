@@ -1,14 +1,13 @@
 # Datorstyrt fresemaskin 3018 MAX CNC på Kuben vidergående skole
 
-Her finns informasjon om skolens CNC fres, hurtiglinker:
+Her finns informasjon om skolens CNC fres.
 * [Informasjon om fresen](README.md#informasjon-om-fresen)
 * [Bruk av fresen](README.md#bruk-av-fresen)
 * [Montering og service](file:///C:/Users/annia024/Documents/GitHub/CNC-fres-3018/README.md#montering)
 
-[Besøk skolens nettsted https://kuben.vgs.no/](https://kuben.vgs.no/)
-
-[Kuben videregående skole på github https://github.com/KubenKoder](https://github.com/KubenKoder)
-
+* [Besøk skolens nettsted https://kuben.vgs.no/](https://kuben.vgs.no/)
+* [Kuben videregående skole på github https://github.com/KubenKoder](https://github.com/KubenKoder)
+* [Link til denne side på github pages https://kubenkoder.github.io/CNC-fres-3018/ ](https://kubenkoder.github.io/CNC-fres-3018/)
 
 ![Montert fres](img/montert.jpg)
 
@@ -81,3 +80,5 @@ Det mangler fortsatt noe trinn for fresen er enkel å bruke, noen er viktigere e
 * Lage kursmateriale som tekst og video for bruk av maskinen. Gjerne flere små videos som viser ulike trinn så kan de enkelt byttes ut når noe endres.
 * Lenke inn guide til hvordan man tegner kretskort og andre ting for fresing.
 * Mulig ide, skyv Y-axis lagerholder fra hverandre for å minske slerk. 
+
+[Back to top](https://kubenkoder.github.io/CNC-fres-3018/)
