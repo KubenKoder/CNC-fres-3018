@@ -1,10 +1,22 @@
-# Datorstyrt fresemaskin 3018 MAX CNC
+# Datorstyrt fresemaskin 3018 MAX CNC på Kuben vidergående skole
+
+Her finns informasjon om skolens CNC fres, hurtiglinker:
+* [Informasjon om fresen](README.md#informasjon-om-fresen)
+* [Bruk av fresen](README.md#bruk-av-fresen)
+* [Montering og service](file:///C:/Users/annia024/Documents/GitHub/CNC-fres-3018/README.md#montering)
+
+[Besøk skolens nettsted https://kuben.vgs.no/](https://kuben.vgs.no/)
+
+[Kuben videregående skole på github https://github.com/KubenKoder](https://github.com/KubenKoder)
+
 
 ![Montert fres](img/montert.jpg)
 
+## Informasjon om fresen
+
 Denne datorstyrte fresemaskinen (CNC) med et horisontellt arbeidsområde på 30*18cm står nå i 3-etagen-elektroverkstedet, innre rommmet. Den er tenkt til å bli bruk til å gi introduksjon til operasjon av CNC-freser til elevene og for å lage prototyper av kretskort med. Den kan frese i treverk, plastik og kretskort (uten glassfiber). 
 
-Maskinen er en generisk no-name "3018 CNC" fra kina og ble kjøpt fra aliexpress, [se kvittering](CNC_order.pdf) og [link til webb-butikk](https://www.aliexpress.com/item/1005001728210352.html). Denne modell av CNC blir salgt av mange ulike fassonger fra ulike leverantører og återforselgere på internet, typisk fra kina. Denne ble valgt for at den var 100% metall og vi håper at det gjør den litt mer robust.
+Maskinen er en generisk no-name "3018 CNC" fra kina og ble kjøpt fra aliexpress for 3801 NOK inklusive frakt og moms. [Kvittering](CNC_order.pdf) og [link til webb-butikk](https://www.aliexpress.com/item/1005001728210352.html). Denne modell av CNC blir salgt av mange ulike fassonger fra ulike leverantører og återforselgere på internet, typisk fra kina. Denne ble valgt for at den var 100% metall og vi håper at det gjør den litt mer robust.
 
 Den styres av [grbl](https://github.com/gnea/grbl/wiki) software og en dedikert handkontroller med SD-kort-læser. Den kan også styres direkte fra en USB-tilkoblet PC med progam som [Universal Gcode Sender](https://winder.github.io/ugs_website/) som gir deg mulighet at styre den med mobiltelefon eller bruke mer avanserte funksjoner som automatisk probing og overflatekompensasjon. 
 
@@ -31,7 +43,7 @@ Tegne 3D modell i [Fusion360](https://www.autodesk.com/products/fusion-360) i *d
 
 ### Monterings crew fra 2DE 2020-2021:
 
-Maskinen blev påbegynt montering 22.04.2021
+Maskinen blev påbegynt montering 22.04.2021 av disse eleverne fra data og elektronikk: 
 
 * Noah
 * Bryan
@@ -52,6 +64,9 @@ Video som viser montering av en lignende maskin.
 [Hentet fra GrabCAD](https://grabcad.com/library/cnc-router-3018-black-1)
 
 ## Kvar at montere
+
+Det mangler fortsatt noe trinn for fresen er enkel å bruke, noen er viktigere en andre. Denne liste bør deles opp i kategorier og prioritets-rekkefølge.
+
 * Rubber feet. Tregner T-nuts og skruer, 3D printe? Alternativt drille nye hull og gjenge. Ikke så vanskelig
 * Montere endebryter i alle rettninger og koble sammen kablene så de aktiverer samtidig (sjekk NO / NC). Mangler festepunkter, kabler og bryter. Prøv å ikke redusere arbeidsområdet unødvendig og ikke la maskinen knuse bryterne. Krever en hel del jobb og besluttninger. Induktive sensorer kan brukes men kommer med samme utfordringer. De bør festes godt så de holder posisjonen, serskild om de er mekaniske. Aktiver Hard-limits i GRBL når de funker.
  * Teste om vi kan bruke homeing med kontrollen, gjennom at ha en fil med homeing-sequence. 
@@ -65,3 +80,4 @@ Video som viser montering av en lignende maskin.
 * Lage en festemetode for alle godkjente emnestørrelser.
 * Lage kursmateriale som tekst og video for bruk av maskinen. Gjerne flere små videos som viser ulike trinn så kan de enkelt byttes ut når noe endres.
 * Lenke inn guide til hvordan man tegner kretskort og andre ting for fresing.
+* Mulig ide, skyv Y-axis lagerholder fra hverandre for å minske slerk. 
