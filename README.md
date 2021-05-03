@@ -3,7 +3,7 @@
 Her finns informasjon om skolens CNC fres.
 * [Informasjon om fresen](README.md#informasjon-om-fresen)
 * [Bruk av fresen](README.md#bruk-av-fresen)
-* [Montering og service](file:///C:/Users/annia024/Documents/GitHub/CNC-fres-3018/README.md#montering)
+* [Montering og service](README.md#montering)
 
 * [Besøk skolens nettsted https://kuben.vgs.no/](https://kuben.vgs.no/)
 * [Kuben videregående skole på github https://github.com/KubenKoder](https://github.com/KubenKoder)
